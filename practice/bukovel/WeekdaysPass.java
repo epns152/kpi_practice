@@ -30,6 +30,7 @@ public class WeekdaysPass extends SkiPass {
             countOfSlopes = count;
         } else {
             System.out.println("Entered wrong number");
+//            throw new IllegalArgument;
             return;
         }
         setId(id);
